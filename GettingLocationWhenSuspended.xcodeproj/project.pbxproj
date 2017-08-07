@@ -14,8 +14,9 @@
 		1D4D72C71A54F80B000BD788 /* GettingLocationWhenSuspendedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D72C61A54F80B000BD788 /* GettingLocationWhenSuspendedTests.m */; };
 		1D4D72D61A54F873000BD788 /* LocationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D72D11A54F873000BD788 /* LocationAppDelegate.m */; };
 		1D4D72D71A54F873000BD788 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D72D31A54F873000BD788 /* LocationViewController.m */; };
-		1D4D72DA1A54F882000BD788 /* Location-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D4D72D91A54F882000BD788 /* Location-Info.plist */; };
 		7BEE0DA21B9841E600779C9A /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEE0DA11B9841E600779C9A /* LocationManager.m */; };
+		875C7131C2AC6C6133A02DC3 /* libPods-GettingLocationWhenSuspended.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 570BC3581D1ECE2C04DDA903 /* libPods-GettingLocationWhenSuspended.a */; };
+		D242F0008C3564F80512AB3A /* libPods-GettingLocationWhenSuspendedTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F50A1CF326D0204CD0459B /* libPods-GettingLocationWhenSuspendedTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00938B4F584D470F0774D172 /* Pods-GettingLocationWhenSuspended.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GettingLocationWhenSuspended.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GettingLocationWhenSuspended/Pods-GettingLocationWhenSuspended.debug.xcconfig"; sourceTree = "<group>"; };
+		01E3E84ACD82F49D52192589 /* Pods-GettingLocationWhenSuspendedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GettingLocationWhenSuspendedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GettingLocationWhenSuspendedTests/Pods-GettingLocationWhenSuspendedTests.release.xcconfig"; sourceTree = "<group>"; };
 		1D4D72A71A54F80B000BD788 /* GettingLocationWhenSuspended.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GettingLocationWhenSuspended.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4D72AC1A54F80B000BD788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D4D72B51A54F80B000BD788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,8 +45,12 @@
 		1D4D72D21A54F873000BD788 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
 		1D4D72D31A54F873000BD788 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 		1D4D72D91A54F882000BD788 /* Location-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Location-Info.plist"; sourceTree = "<group>"; };
+		570BC3581D1ECE2C04DDA903 /* libPods-GettingLocationWhenSuspended.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GettingLocationWhenSuspended.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BD4EA734DF939EFE0C0ABD /* Pods-GettingLocationWhenSuspendedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GettingLocationWhenSuspendedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GettingLocationWhenSuspendedTests/Pods-GettingLocationWhenSuspendedTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7BEE0DA01B9841E600779C9A /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
 		7BEE0DA11B9841E600779C9A /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		91F50A1CF326D0204CD0459B /* libPods-GettingLocationWhenSuspendedTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GettingLocationWhenSuspendedTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC6127D4FF7A9182E82BC45 /* Pods-GettingLocationWhenSuspended.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GettingLocationWhenSuspended.release.xcconfig"; path = "Pods/Target Support Files/Pods-GettingLocationWhenSuspended/Pods-GettingLocationWhenSuspended.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875C7131C2AC6C6133A02DC3 /* libPods-GettingLocationWhenSuspended.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D242F0008C3564F80512AB3A /* libPods-GettingLocationWhenSuspendedTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +79,8 @@
 				1D4D72A91A54F80B000BD788 /* GettingLocationWhenSuspended */,
 				1D4D72C31A54F80B000BD788 /* GettingLocationWhenSuspendedTests */,
 				1D4D72A81A54F80B000BD788 /* Products */,
+				5ECF7FD074024A4DCBEA461E /* Pods */,
+				A68E904ED7F19F9DD3EF8500 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +136,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5ECF7FD074024A4DCBEA461E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00938B4F584D470F0774D172 /* Pods-GettingLocationWhenSuspended.debug.xcconfig */,
+				DCC6127D4FF7A9182E82BC45 /* Pods-GettingLocationWhenSuspended.release.xcconfig */,
+				57BD4EA734DF939EFE0C0ABD /* Pods-GettingLocationWhenSuspendedTests.debug.xcconfig */,
+				01E3E84ACD82F49D52192589 /* Pods-GettingLocationWhenSuspendedTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A68E904ED7F19F9DD3EF8500 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				570BC3581D1ECE2C04DDA903 /* libPods-GettingLocationWhenSuspended.a */,
+				91F50A1CF326D0204CD0459B /* libPods-GettingLocationWhenSuspendedTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D4D72CA1A54F80B000BD788 /* Build configuration list for PBXNativeTarget "GettingLocationWhenSuspended" */;
 			buildPhases = (
+				4B91C29A945450F7A95ECC55 /* [CP] Check Pods Manifest.lock */,
 				1D4D72A31A54F80B000BD788 /* Sources */,
 				1D4D72A41A54F80B000BD788 /* Frameworks */,
 				1D4D72A51A54F80B000BD788 /* Resources */,
+				FCCE4E7278D13C1EA79D739E /* [CP] Embed Pods Frameworks */,
+				D982A3CF19F0FD3E309A3904 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D4D72CD1A54F80B000BD788 /* Build configuration list for PBXNativeTarget "GettingLocationWhenSuspendedTests" */;
 			buildPhases = (
+				8A1AAA270EFE9DB0E878DF9F /* [CP] Check Pods Manifest.lock */,
 				1D4D72BC1A54F80B000BD788 /* Sources */,
 				1D4D72BD1A54F80B000BD788 /* Frameworks */,
 				1D4D72BE1A54F80B000BD788 /* Resources */,
+				E3DFA453869D2D4EF5AF0FBA /* [CP] Embed Pods Frameworks */,
+				9325D08117D7CDA994F8B8A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,11 +206,12 @@
 		1D4D729F1A54F80B000BD788 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Rick;
 				TargetAttributes = {
 					1D4D72A61A54F80B000BD788 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 7973RL376J;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -213,7 +251,6 @@
 				1D4D72B61A54F80B000BD788 /* Main.storyboard in Resources */,
 				1D4D72BB1A54F80B000BD788 /* LaunchScreen.xib in Resources */,
 				1D4D72B81A54F80B000BD788 /* Images.xcassets in Resources */,
-				1D4D72DA1A54F882000BD788 /* Location-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +262,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B91C29A945450F7A95ECC55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A1AAA270EFE9DB0E878DF9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9325D08117D7CDA994F8B8A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GettingLocationWhenSuspendedTests/Pods-GettingLocationWhenSuspendedTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D982A3CF19F0FD3E309A3904 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GettingLocationWhenSuspended/Pods-GettingLocationWhenSuspended-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3DFA453869D2D4EF5AF0FBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GettingLocationWhenSuspendedTests/Pods-GettingLocationWhenSuspendedTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCCE4E7278D13C1EA79D739E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GettingLocationWhenSuspended/Pods-GettingLocationWhenSuspended-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D4D72A31A54F80B000BD788 /* Sources */ = {
@@ -289,16 +419,20 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Sin Ong Chea (QZB56R584W)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sin Ong Chea (QZB56R584W)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -331,8 +465,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Geny Social Media (EF35MK3MP6)";
@@ -341,6 +477,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -356,32 +493,39 @@
 		};
 		1D4D72CB1A54F80B000BD788 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00938B4F584D470F0774D172 /* Pods-GettingLocationWhenSuspended.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7973RL376J;
 				INFOPLIST_FILE = "$(SRCROOT)/GettingLocationWhenSuspended/Location-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobileoop.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		1D4D72CC1A54F80B000BD788 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCC6127D4FF7A9182E82BC45 /* Pods-GettingLocationWhenSuspended.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7973RL376J;
 				INFOPLIST_FILE = "$(SRCROOT)/GettingLocationWhenSuspended/Location-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobileoop.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		1D4D72CE1A54F80B000BD788 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57BD4EA734DF939EFE0C0ABD /* Pods-GettingLocationWhenSuspendedTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -396,6 +540,7 @@
 				);
 				INFOPLIST_FILE = GettingLocationWhenSuspendedTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobileoop.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GettingLocationWhenSuspended.app/GettingLocationWhenSuspended";
 			};
@@ -403,6 +548,7 @@
 		};
 		1D4D72CF1A54F80B000BD788 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E3E84ACD82F49D52192589 /* Pods-GettingLocationWhenSuspendedTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -413,6 +559,7 @@
 				);
 				INFOPLIST_FILE = GettingLocationWhenSuspendedTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobileoop.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GettingLocationWhenSuspended.app/GettingLocationWhenSuspended";
 			};

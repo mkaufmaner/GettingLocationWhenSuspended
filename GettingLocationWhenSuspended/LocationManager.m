@@ -8,12 +8,14 @@
 
 #import "LocationManager.h"
 #import <UIKit/UIKit.h>
+#import <AFNetworking/AFHTTPSessionManager.h>
 
 
 @interface LocationManager () <CLLocationManagerDelegate>
 
 @end
 
+static NSString * const ARCANGEL_API_DEV_BASE = @"http://api-mkaufman.patrocinium.com";
 
 @implementation LocationManager
 
@@ -29,13 +31,47 @@
     return sharedMyModel;
 }
 
+- (void)getUserTokenByLoggingIn{
+	NSLog(@"getUserByLoggingIn");
+	
+	NSDictionary *credentials = @{@"username": @"iosarcaddev@gmail.com", @"password": @"kkkkkk"};
+
+	NSData *data = [NSJSONSerialization dataWithJSONObject:credentials
+												   options:NSJSONWritingPrettyPrinted
+													 error:nil];
+	NSString *jsonString = [[NSString alloc] initWithData:data
+												 encoding:NSUTF8StringEncoding];
+	NSString *urlString = [NSString stringWithFormat:@"%@/auth/arcangel",ARCANGEL_API_DEV_BASE];
+	NSLog(@"url string %@", urlString);
+	
+	AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+	NSMutableURLRequest *req = [[AFJSONRequestSerializer serializer] requestWithMethod:@"POST"
+																			 URLString:urlString
+																			parameters:credentials
+																				 error:nil];
+	
+	req.timeoutInterval = [[[NSUserDefaults standardUserDefaults] valueForKey:@"timeoutInterval"] longValue];
+	[req setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+	[req setValue:@"application/json" forHTTPHeaderField:@"Accept"];
+	[req setHTTPBody:[jsonString dataUsingEncoding:NSUTF8StringEncoding]];
+	
+	[[manager dataTaskWithRequest:req completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
+		if(!error){
+			NSLog(@"reply json: %@",responseObject);
+			NSLog(@"reply json: %@",response);
+			[self restartMonitoringLocation];
+		} else {
+			NSLog(@"Error: %@, %@, %@", error, response, responseObject);
+		}
+	}] resume];
+}
 
 #pragma mark - CLLocationManager
 
 - (void)startMonitoringLocation {
     if (_anotherLocationManager)
         [_anotherLocationManager stopMonitoringSignificantLocationChanges];
-    
+	
     self.anotherLocationManager = [[CLLocationManager alloc]init];
     _anotherLocationManager.delegate = self;
     _anotherLocationManager.desiredAccuracy = kCLLocationAccuracyBestForNavigation;

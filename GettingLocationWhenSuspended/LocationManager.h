@@ -30,6 +30,7 @@
 
 - (void)startMonitoringLocation;
 - (void)restartMonitoringLocation;
+- (void)getUserTokenByLoggingIn;
 
 - (void)addResumeLocationToPList;
 - (void)addLocationToPList:(BOOL)fromResume;

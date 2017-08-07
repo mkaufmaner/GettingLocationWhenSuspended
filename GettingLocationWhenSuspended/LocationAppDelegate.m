@@ -60,6 +60,14 @@
 
             [self.shareModel startMonitoringLocation];
             [self.shareModel addResumeLocationToPList];
+			
+			dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0 * NSEC_PER_SEC));
+			dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+				// do something
+				NSLog(@"Making API post");
+				[self.shareModel getUserTokenByLoggingIn];
+			});
+			
         }
     }
     
